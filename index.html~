@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
+	<title>Miguel Beneitez</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+   <link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favkth.jpg" >
+
+</head>
+
+<body>
+
+   <!-- Header
+   ================================================== -->
+   <header id="home">
+
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	    <li><a class="smoothscroll" href="#research">Research</a></li>
+            <li><a class="smoothscroll" href="#teaching">Teaching</a></li>
+            <li><a class="smoothscroll" href="#misc">Misc</a></li>
+            <!--<li><a class="smoothscroll" href="#contact">Contact</a></li> -->
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+           <h1 class="responsive-headline">Miguel Beneitez</h1>
+           <h3>I am a PhD student in Fluid Mechanics at
+	     KTH Royal Institute of Technology.
+	     My research focuses on subcritical transition of shear flows using tools from dynamical systems and large-scale simulations.
+       We hope to better understand the transition from laminar to turbulent flow in our work.
+             <!-- Let's <a class="smoothscroll" href="#about">start scrolling</a>
+             and learn more <a class="smoothscroll" href="#about">about me</a>.--> </h3>
+            <hr />
+            <ul class="social">
+               <li><a href="https://twitter.com/beneitezMiguel"><i class="fa fa-twitter"></i></a></li>
+               <li><a href="https://scholar.google.com/citations?user=JQLC_HQAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a></li>
+	       <li><a href="https://orcid.org/0000-0002-4045-7262"><i class="ai ai-orcid"></i></a></li>
+               <li><a href="skype:mikibenez?userinfo"><i class="fa fa-skype"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic" src="images/profilepic.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+           <h2>About Me</h2>
+
+            <p>I was born in Madrid, Spain where I studied Mechanical Engineering with an specialization in Energy Technologies. Afterwards I moved to Stockholm to further specialise in Fluid Mechanics and now I am doing my PhD under the supervision of <a href=https://www.mech.kth.se/~henning/ target=_blank>Prof. Dan Henningson</a>, <a href=https://www.mech.kth.se/mech/info_staff.jsp?ID=216 target=_blank>Prof. Philipp Schlatter</a> and <a href=https://perso.limsi.fr/duguet/ target=_blank>Yohann Duguet</a>.
+            </p>
+
+	    <h2>Short CV</h2>
+	    <ul class="disc">
+	      <li>PhD Student at <a href=https://www.kth.se/mech target=_blank>KTH Engineering Mechanics</a> (2017-currently)</li>
+	      <li>Master in Engineering Mechanics (<a href=https://www.kth.se target=_blank>KTH</a> 2015-2017)</li>
+	      <li>Bachelor in Engineering in Industrial Technologies (<a href=https://www.uc3m.es target=_blank>UC3M</a> 2011-2015)</li>
+	    </ul>
+            <div class="row">
+
+	      <div class="columns download">
+                <p>
+                  <a href="#" class="button"><i class="fa fa-download"></i>Download Resume</a>
+                </p>
+              </div>
+              <div class="columns contact-details">
+
+                <h2>Contact Information</h2>
+                <p class="address">
+		  <span><b>Email:  </b> beneitez @  kth . se</span><br>
+		  <span>Osquars Backe 18, floor 7</span><br>
+		  <span>Department of Mechanics</span><br>
+		  <span>Royal Institute of Technology (KTH)</span><br>
+		  <span>SE-100 44 Stockholm</span><br>
+		  <span>Sweden</span>
+		</p>
+
+              </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="research">
+
+      <!-- Research-->
+      <div class="row research">
+
+         <div class="three columns header-col">
+            <h1><span>Research</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Interests</h3>
+<!--                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p> -->
+
+                  <p>
+                    My main interest consists in the understanding of the subcritical transition between the laminar and turbulent flow states.
+                    I am interested in an approach to transition based on dynamical systems, where the so called
+                    <b>edge states</b> are studied.
+                    The edge state is an unstable state living on the boundary that separates the basins of attraction
+                    for the laminar and turbulent flow states. 
+                    I am particularly interested into boundary-layer configurations,
+                     which involve an additional degree of complexity due to the spatial development of the flow.
+                     To study the complex dynamics we perform large-scale direct numerical simulations using a pseudo-spectral code combined with low-order models.
+                     I am also interested in hydrodynamics stability of jets, focusing on complex jets, and to some extent in bioflows.
+                  </p>
+
+
+                  <h3>Publications</h3>
+		  <!--                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p> -->
+
+		  <p>4. <b>M. Beneitez</b>, Y. Duguet & D. S. Henningson.
+                    A model for the collapse of the edge when two transition routes compete. Under review in <i>Phys. Rev. E</i> <a href=https://arxiv.org/pdf/2005.11047.pdf>(arXiv)</a> 
+                  </p>
+		  
+		  <p>3. <b>M. Beneitez</b>, Y. Duguet, P. Schlatter & D. S. Henningson (2020).
+                    The edge as a Lagrangian Coherent Structure in a high-dimensional state space. Accepted in <i>Phys. Rev. Research </i> <a href=https://arxiv.org/pdf/2004.00887.pdf>(arXiv)</a> 
+                  </p>
+		  
+                  <p>2. C. Vavaliaris, <b>M. Beneitez</b> & D. S. Henningson (2020).
+                    Optimal perturbations and transition energy thresholds in boundary layer shear flows. <i>Phys. Rev. Fluids</i> <b>5</b>, 062401(R)   <a href=https://journals.aps.org/prfluids/pdf/10.1103/PhysRevFluids.5.062401>(PDF)</a> 
+                  </p>
+
+                  <p>1. <b>M. Beneitez</b>, Y. Duguet, P. Schlatter & D. S. Henningson (2019).
+                    Edge tracking in spatially developing boundary layer flows.  <i>J. Fluid Mech.</i> <b>881</b>, 164-181 <a href=https://www.cambridge.org/core/services/aop-cambridge-core/content/view/0E334783C22461322D491A25FA3DC7B2/S0022112019007638a.pdf/edge_tracking_in_spatially_developing_boundary_layer_flows.pdf>(PDF)</a> 
+                  </p>
+
+
+                  <h3>Conference Contributions</h3>
+		  <!--                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p> -->
+
+		  <p>
+                    5.  Y. Duguet, <b>M. Beneitez</b>, P. Schlatter & D. S. Henningson. What can we learn from the Edge about bypass transition. ETC17, Torino, Italy Sep. 2019
+                  </p>
+		  
+		  <p>
+                    4.  C. Vavaliaris, <b>M. Beneitez</b> & D. S. Henningson. Optimal initial perturbations and the minimal seed of Blasius boundary-layer flow. ETC17, Torino, Italy Sep. 2019
+                  </p>
+		  
+                  <p>
+                    3. <b>M. Beneitez</b>, Y. Duguet, P. Schlatter & D. S. Henningson. What can we learn from the Edge about bypass transition. IUTAM transition 2019, London, U.K. Sep. 2019
+                  </p>
+
+		  <p>
+                    2. <b>M. Beneitez</b>, Y. Duguet, P. Schlatter & D. S. Henningson. The edge for boundary layer
+                    flows. Euromech Colloquium 598: Coherent structures in wall-bounded turbulence: new directions
+                    in a classical problem, London, U.K. Aug. 2018
+                  </p>
+                  <p>
+                    1. <b>M. Beneitez</b>, M. Rubio-Rubio & A. Sevilla. On the
+                    steady structure of vertical slender liquid jets with non-uniform outlet velocity profiles.
+                     11th European Fluid Mechanics Conference, Seville, Spain. Sept. 2016
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Research -->
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Teaching section
+   ================================================== -->
+   <section id="teaching">
+
+     <div class="row teaching">
+
+       <div class="three columns header-col">
+          <h1><span>Teaching</span></h1>
+       </div>
+
+        <div class="nine columns main-col">
+
+           <div class="row item">
+
+              <div class="twelve columns">
+
+                <h2>Academic year 2018-2019 </h2>
+                <ul class="disc">
+                  <li><a href=https://www.kth.se/social/course/SG1140/ target=_blank>SG1140</a> -
+                   Mekanik II</li>
+                   <li><a href=https://www.kth.se/social/course/SG1109/ target=_blank>SG1109</a> -
+                    Mekanik</li>
+                </ul>
+
+               <h2>Academic year 2017-2018 </h2>
+               <ul class="disc">
+                <li><a href=https://www.kth.se/social/course/SG1140/ target=_blank>SG1140</a> -
+                  Mekanik II</li>
+                <li><a href=https://www.kth.se/social/course/SG1109/ target=_blank>SG1109</a> -
+                   Mekanik</li>
+                <li>Supervision of an internship project</li>
+               </ul>
+              </div>
+
+           </div> <!-- item end -->
+
+        </div> <!-- main-col end -->
+
+     </div> <!-- End Research -->
+   </section> <!-- Portfolio Section End-->
+
+      <!-- Resume Section
+   ================================================== -->
+   <section id="misc">
+
+      <!-- Research-->
+      <div class="row misc">
+
+         <div class="three columns header-col">
+            <h1><span>Misc</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+<!--                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p> -->
+
+                  <p>
+                    I am also enthusiastic about science communication and reading about
+		    math and physics in general. It is always great checking <a href=https://www.quantamagazine.org/>Quanta Magazine</a> and <a href=https://fuckyeahfluiddynamics.tumblr.com/>FYFD</a> among others. Additionally, I am interested in open-source software and in the <a href=https://julialang.org/> Julia</a> programming language.
+                  </p>
+
+                  <p>
+                    During the covid-19 crisis I tried to introduce Chaos theory for kids
+		    who could not go to school due to the lockdown in many countries in a lesson together with <a href=https://encounteredu.com/>Encounteredu</a>. The video is available <a href=https://www.youtube.com/watch?v=DqlVgovDX3Y>here!</a>
+                  </p>
+
+
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Research -->
+   </section> <!-- Resume Section End-->
+
+   
+
+   
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+	      <li><a href="https://twitter.com/beneitezMiguel"><i class="fa fa-twitter"></i></a></li>
+	      <li><a href="https://scholar.google.com/citations?user=JQLC_HQAAAAJ&hl=en"><i class="ai ai-google-scholar"></i></a></li>
+	      <li><a href="https://orcid.org/0000-0002-4045-7262"><i class="ai ai-orcid"></i></a></li>
+	      <li><a href="skype:mikibenez?userinfo"><i class="fa fa-skype"></i></a></li>  
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2014 CeeVee</li>
+               <li>Design by <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
+
+</body>
+
+</html>
