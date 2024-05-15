@@ -8,7 +8,7 @@
    TOC:
    a. General Styles
    b. Header Styles
-   c. About Section
+   c. people Section
    d. Resume Section
    e. Portfolio Section
    f. Call To Action Section
@@ -185,61 +185,61 @@ ul#nav li a:active { background-color: transparent !important; }
 
 
 /* ------------------------------------------------------------------ */
-/* c. About Section
+/* c. People Section
 /* ------------------------------------------------------------------ */
 
-#about {
+#people {
    background: #2B2B2B;
    padding-top: 70px;
    padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #fff; }
-#about a:hover, #about a:focus { color: #11ABB0; }
+#people a, #people a:visited  { color: #fff; }
+#people a:hover, #people a:focus { color: #11ABB0; }
 
-#about h2 {
+#people h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
-#about p {
+#people p {
    line-height: 30px;
    color: #aeaeae;
    text-align:justify
 }
-#about .profile-pic {
+#people .profile-pic {
    position: relative;
    width: 200px;
    height: 200px;
    border-radius: 100%;
 }
-#about .download {
+#people .download {
    width: 58%;
    padding-top: 20px;
 }
-#about .contact-details {
+#people .contact-details {
     width: 41.66667%;
     padding-left:0px;
     padding-top:6px;
     padding-right:0px;
     padding-bottom:0px;
 }
-#about .main-col { padding-right: 5%; }
-#about .download .button {
+#people .main-col { padding-right: 5%; }
+#people .download .button {
    margin-top: 6px;
    background: #444;
 }
-#about .download .button:hover {
+#people .download .button:hover {
    background: #fff;
    color: #2B2B2B;
 }
-#about .download .button i {
+#people .download .button i {
    margin-right: 10px;
    font-size: 20px;
 }
-#about a.direction{color:inherit;}
-#about ul{
+#people a.direction{color:inherit;}
+#people ul{
     line-height:30px;
     color:#aeaeae;
 }
