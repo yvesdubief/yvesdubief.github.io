@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../images/cellular.png) no-repeat top center;
+   background: #161415 url(../images/cellulart.png) no-repeat top center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -95,7 +95,7 @@ header .social li {
    display: inline-block;
    margin: 0 15px;
    padding: 0;
-}
+}EIT-PDR
 header .social li a { color: #fff; }
 header .social li a:hover { color: #11ABB0; }
 
@@ -290,51 +290,51 @@ ul#nav li a:active { background-color: transparent !important; }
    margin-top: 6px;
 }
 /* ------------------------------------------------------------------ */
-/* e. Teaching Section
+/* e. EIT-PDR Section
 /* ------------------------------------------------------------------ */
 
-#teaching {
+#EIT-PDR {
    background: #2B2B2B;
    padding-top: 90px;
    padding-bottom: 60px;
    overflow:hidden;
 }
-#teaching h1 {
+#EIT-PDR h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
    color: #fff;
 }
-#teaching h1 span {
+#EIT-PDR h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
    color: #fff;
 }
-#teaching h2 {
+#EIT-PDR h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
    color: #fff;
    margin-bottom: 12px;
 }
-#teaching h3 {
+#EIT-PDR h3 {
     font: 25px/30px 'opensans-bold', sans-serif;
     color: #fff;
 }
-#teaching a {
+#EIT-PDR a {
     color: #fff;
 }
-#teaching a:hover {
+#EIT-PDR a:hover {
     color: #11ABB0;
 
 }
-#teaching p {
+#EIT-PDR p {
     line-height:175%;
     color:#aeaeae;
     text-align:justify
 }
 
 /* Portfolio Content */
-#teaching-wrapper .columns { margin-bottom: 36px; }
-.teaching-item .item-wrap {
+#EIT-PDR-wrapper .columns { margin-bottom: 36px; }
+.EIT-PDR-item .item-wrap {
    background: #fff;
    overflow: hidden;
    position: relative;
@@ -345,13 +345,13 @@ ul#nav li a:active { background-color: transparent !important; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.teaching-item .item-wrap a {
+.EIT-PDR-item .item-wrap a {
    display: block;
    cursor: pointer;
 }
 
 /* overlay */
-.teaching-item .item-wrap .overlay {
+.EIT-PDR-item .item-wrap .overlay {
    position: absolute;
    left: 0;
    top: 0;
