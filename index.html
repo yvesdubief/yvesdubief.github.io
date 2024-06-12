@@ -58,7 +58,7 @@
          <div class="banner-text">
            <h1 class="responsive-headline">M<sup>2</sup>CE Lab</h1>
            <h3>The Multiscale Mechanics and Computational Engineering Lab uses high fidelity simulations and computational models to investigate complex physics in fluid mechanics and heat transfer.
-             It is where Elasto-Inertial Turbulence was numerically found.
+             It is where Elasto-Inertial Turbulence was first simulated and (re)-discovered. Research spans from turbulence theory to snow-farming.
              <!-- Let's <a class="smoothscroll" href="#people">start scrolling</a>
              and learn more <a class="smoothscroll" href="#people">People</a>.--> </h3>
             <hr />
@@ -170,7 +170,7 @@
                     <li>Study of EIT in 2D channel flows </li>
                     <li>Study of EIT in 2D periodic flows </li>
                     <li>Investigation of EIT's small scales </li>
-                    <li>Development of high-fidelity simulations for applications of EIT</li>
+                    <li>Development of high-fidelity simulations for applications of EIT to propulsion and heat transfer problems</li>
                   </ul>
 
                   <h2> Project 2: Simulation of UVM Plasma-Torch</h2>
@@ -224,23 +224,96 @@
         <div class="nine columns main-col">
 
            <!-- <div class="row item"> -->
-
+           <p> Our research group has built unique expertise in the simulation of viscoelastic flows
+           with the objective to explore how polymer and fiber additives
+           can manipulate flow to decrease or increase turbulence, mixing, and
+           heat transfer. Our simulations have been consistently at the forefront
+           of the research in polymer drag reduction and have led to the (re-)discovery
+           of elasto-inertial turbulence (EIT)</p>
               <div class="twelve columns">
                 <h2>Polymer Drag Reduction</h2>
-                <p>
-                  Our research group has built unique expertise in the simulation of viscoelastic flows, leading to the (re-)discovery of elasto-inertial turbulence (EIT), and,
-                  breakthrough advances in the understanding of polymer drag reduction (PDR) and (EIT). Toms (1949) discovered that dissolving minute amounts of polymers in a turbulent pipe flows
-                  could produce considerable reduction in friction drag (up to 80%). Our simulations enabled the derivation of the first conceptual model of the PDR mechanism. The model distinguished two
-                  phenomena: one causing vortices to be weakened, the other being a reinjection of energy to the flow. The latter was then speculated to be responsible for the state of maximum
+                <p> Toms (1949) discovered that dissolving minute amounts of polymers in a turbulent pipe flows
+                  could produce considerable reduction in friction drag (up to 80%). Our simulations enabled
+                  the derivation of the first conceptual model of the PDR mechanism. The model distinguished two
+                  phenomena. The first weakens vortices that cause turbulent friction drag (thus driving drag reduction).
+                  The polymer drag reduction physics is effectively a removal of flow energy by elastic energy
+                  through polymer stretching. The second consists of a reinjection of elastic energy into the flow.
+                  Identified in Dubief et al. (2004), this energy transfer from polymers to flow
+                  was then speculated to be responsible for the state of maximum
                   drag reduction, the asymptotic of PDR that is not laminar and cannot be surpassed by increasing polymer concentration.
                 </p>
                 <h2>Elasto-Inertial Turbulence</h2>
-                <p> In the search for the dynamics behind the reinjection of energy, our simulations discovered a new set of coherent structures and a new state of turbulence, EIT. A recent literature
-                  review revealed that this state had been observed nearly a century ago, but had been forgotten by the scientific community. Since the first simulation of EIT, our research group along with
-                  great collaborators from University of Liege, University of Cambridge, University of Edinburgh, Institute of Science and Technology (Austria), Monash University, Weizmann Institute has been
-                  a leader in the simulation of EIT and the discovery of its properties. EIT's dynamics does not fit any existing theories of traditional turbulence and, as such, requires careful choices of
-                  numerical methods.
-                </p>
+                <p> In 2010, we leveraged faster computers than in the 2001-2005 era of PDR research to
+                   search for the dynamics behind the transfer of energy from polymers to flow.
+                   To our surprise, our simulations revealed a new set of coherent structures and a new state of turbulence, EIT. A recent literature
+                  review (Dubief, Terrapon, Hof, 2023) revealed that this state had been observed nearly a century ago,
+                  but had been forgotten by the scientific community. Since our first simulation of EIT, our research group has enjoyed great collaborations with
+                  University of Liege (Belgium), University of Cambridge (UK), University of Edinburgh (UK), Institute of Science and Technology (Austria),
+                  Monash University (Australia), Weizmann Institute of Science (Israel). </p>
+                <!-- <p> The numerical discovery of EIT has redefined my vision of research. At the origin of the 2010 simulations was
+                  the same drive as for my PDR work to use numerical methods that respect the mathematical properties of the governing equations of polymer model.
+                  The challenge is in the hyperbolic nature of these equations,
+                  which means they have the tendency to create smaller length and
+                  time scales than the Navier-Stokes equations, the flow governing equations.
+                  EIT also proved to have slow scales that play an important role in the dynamics of chaos.
+                  In short a high fidelity simulation of EIT requires smaller time steps, smaller grid steps and longer
+                  flow simulation time than for flow without polymers. In 2001 until 2018, most research
+                  was trying to solve PDR and EIT problems with the same grids and time steps as Newtonian flows.
+                  As a result the discovery of EIT was met with strong skepticism. It took Bjorn Hof's experimemt (2011) and
+                  a joint paper (Samanta et al. PNAS 2013) to break a series of rejection.
+                  The progress has been slow because everything is new and hard to validate. It has taken an average
+                  of two years between the discovery any new element of the dynamics of EIT and its validation, sometimes more.
+                  This approach is not rewarded in the "publish or perish" world. Nevertheless I have always remained
+                  true to my ideals and principles. EIT has invalidated many conclusions that
+                  were haslty made because the hyperbolicity of the model transport equation was turn into
+                  parabolicity (for numerical stability reasons), or the range of polymer parameters investigated was too narrow.
+
+                </p> -->
+
+                <h2>Relevant publications</h2>
+                <p> Beneitez, M., Page, J., Dubief, Y., & Kerswell, R. R. (2024). Multistability of elasto-
+                  inertial two-dimensional channel flow. Journal of Fluid Mechanics, 981 , A30.</p>
+                <p> Dubief, Y., Terrapon, V. E., & Hof, B. (2023). Elasto-inertial turbulence. Annual Review
+                  of Fluid Mechanics, 55 (1), 675-705. doi: 10.1146/annurev-fluid-032822-025933</p>
+                <p> Dubief, Y., Page, J., Kerswell, R. R., Terrapon, V. E., & Steinberg, V. (2022). First
+                  coherent structure in elasto-inertial turbulence. Physical Review Fluids, 7 (7), 073301.</p>
+                <p> Page, J., Dubief, Y., & Kerswell, R. R. (2020). Exact traveling wave solutions in viscoelastic
+                channel flow. Physical Review Letters, 125 (15), 154501.</p>
+                <p> Dubief, Y., & Terrapon, V. (2020). Heat transfer enhancement and reduction in low-
+                rayleigh number natural convection flow with polymer additives. Physics of Fluids, 32 ,
+                3033103. doi: 10.1063/1.5143275</p>
+                <p> White, C., Dubief, Y., & Klewicki, J. (2018). Properties of the mean momentum balance
+                in polymer drag-reduced channel flow. Journal of Fluid Mechanics, 834 , 409–433. </p>
+                <p> Sid, S., Terrapon, V., & Dubief, Y. (2018). Two-dimensional dynamics of elasto-inertial
+                turbulence and its role in polymer drag reduction. Physical Review Fluids, 3 (1), 011301.</p>
+                <p> Terrapon, V. E., Dubief, Y., & Soria, J. (2015). On the role of pressure in elasto-inertial
+                turbulence. Journal of Turbulence, 16 (1), 26–43.</p>
+                <p> Dubief, Y., Terrapon, V. E., & Soria, J. (2013). On the mechanism of elasto-inertial
+                turbulence. Physics of Fluids, 25 (11), 110817.</p>
+                <p> Samanta, D., Dubief, Y., Holzner, M., Sch ̈afer, C., Morozov, A. N., Wagner, C., & Hof,
+                B. (2013). Elasto-inertial turbulence. Proceedings of the National Academy of Sciences,
+                110 (26), 10557–10562.</p>
+                <p> White, C., Dubief, Y., & Klewicki, J. (2012). Re-examining the logarithmic dependence
+                of the mean velocity distribution in polymer drag reduced wall-bounded flow. Physics of
+                Fluids, 24 (2), 021701.</p>
+                <p> Iaccarino, G., Shaqfeh, E. S., & Dubief, Y. (2010). Reynolds-averaged modeling of polymer
+                drag reduction in turbulent flows. Journal of Non-Newtonian Fluid Mechanics, 165 (7-8),
+                376–384. </p>
+                <p> Dubief, Y., Terrapon, V. E., White, C. M., Shaqfeh, E. S., Moin, P., & Lele, S. K. (2005).
+                New answers on the interaction between polymers and vortices in turbulent flows. Flow,
+                turbulence and combustion, 74 (4), 311–329.</p>
+                <p> Dimitropoulos, C. D., Dubief, Y., Shaqfeh, E. S., Moin, P., & Lele, S. K. (2005). Direct
+                numerical simulation of polymer-induced drag reduction in turbulent boundary layer flow.
+                Physics of Fluids, 17 (1), 011705.</p>
+                <p> Dubief, Y., White, C. M., Terrapon, V. E., Shaqfeh, E. S., Moin, P., & Lele, S. K. (2004).
+                On the coherent drag-reducing and turbulence-enhancing behaviour of polymers in wall
+                flows. Journal of Fluid Mechanics, 514 , 271–280.</p>
+                <p> Terrapon, V., Dubief, Y., Moin, P., Shaqfeh, E. S., & Lele, S. K. (2004). Simulated polymer
+                stretch in a turbulent flow using brownian dynamics. Journal of Fluid Mechanics, 504 ,
+                61–71.</p>
+                <p> Paschkewitz, J., Dubief, Y., Dimitropoulos, C. D., Shaqfeh, E. S., & Moin, P. (2004).
+                Numerical simulation of turbulent drag reduction using rigid fibres. Journal of Fluid
+                Mechanics, 518 , 281–317.</p>
                 <!-- <ul class="disc">
                   <li>Statics </li>
                   <li>Fluid Mechanics </li>
@@ -269,6 +342,38 @@
 
       <!-- Resume Section
    ================================================== -->
+   <!-- 30. Hagan, D., Wengrove, M., Dubief, Y., Desjardins, O., Frank-Gilchrist, D., & Calantoni,
+   J. (2023). Particle based large eddy simulation of vortex ripple dynamics using an euler–
+   lagrange approach. European Journal of Mechanics-B/Fluids, 97 , 53–69.
+   28. Chen, J., Olson, S. M., Banerjee, S., Dewoolkar, M. M., & Dubief, Y. (2022). Water
+   content of moist-tamped nonplastic specimens for constant-volume direct simple shear
+   testing. Geotechnical Testing Journal , 45 (2).
+   25. Hurwitz, Z. L., Dubief, Y., & Almassalkhi, M. (2020). Economic efficiency and carbon
+   emissions in multi-energy systems with flexible buildings. International Journal of Elec-
+   trical Power & Energy Systems, 123 , 106114.
+
+   24. Weiss, H. S., Bierman, P. R., Dubief, Y., & Hamshaw, S. D. (2019). Optimization of
+   over-summer snow storage at midlatitudes and low elevation. The Cryosphere, 13 (12),
+   3367–3382.
+   23. Ebadi, A., White, C. M., Pond, I., & Dubief, Y. (2019). Mean dynamics and transition
+   to turbulence in oscillatory channel flow. Journal of Fluid Mechanics, 880 , 864–889. doi:
+   10.1017/jfm.2019.706
+   20. Pond, I., Ebadi, A., Dubief, Y., & White, C. M. (2017). An integral validation technique
+   of rans turbulence models. Computers & Fluids, 149 , 150–159.
+   19. Reagan, A. J., Dubief, Y., Dodds, P. S., & Danforth, C. M. (2016). Predicting flow reversals
+   in a computational fluid dynamics simulated thermosyphon using data assimilation. PloS
+   one, 11 (2), e0148134.
+   14. Haynes, L. M., Dubief, Y. C., & Mann, K. G. (2012). Membrane binding events in the
+   initiation and propagation phases of tissue factor-initiated zymogen activation under flow.
+   Journal of Biological Chemistry, 287 (8), 5225–5234.
+   13. Haynes, L. M., Dubief, Y., Orfeo, T., & Mann, K. G. (2010). The effects of flow on
+   the activation of bovine prothrombin by prothrombinase at physiologically relevant shear
+   rates. The FASEB Journal , 24 (1 Supplement), 835–4.
+   12. Haynes, L. M., Dubief, Y. C., Orfeo, T., & Mann, K. G. (2011). Dilutional control
+   of prothrombin activation at physiologically relevant shear rates. Biophysical journal ,
+   100 (3), 765–773.
+   11. Rollin, B., Dubief, Y., & Doering, C. (2011). Variations on kolmogorov flow: turbulent
+   energy dissipation and mean flow profiles. Journal of Fluid Mechanics, 670 , 204–213. -->
    <section id="misc">
 
       <!-- Research-->
